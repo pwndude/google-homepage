@@ -1,0 +1,39 @@
+/* Header Styles */
+.header {
+    padding-top: 10px;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    opacity: .75;
+}
+
+/* Left-Side Header Styles */
+.header-left {
+    float: left;
+    padding: 5px;
+}
+
+#about {
+    padding-left: 15px;
+}
+
+#store {
+    padding-left: 15px;    
+}
+
+/* Right-Side Header Styles */
+.header-right {
+    float: right;
+    margin: 5px;
+}
+
+#apps {
+    width: 2.5%;
+}
+
+#avatar {
+    width: 3%;
+}
+
+#tfnewsearch {
+    border-radius: 24px;
+}
