@@ -1,3 +1,19 @@
+/* Viewport Styles */
+div#viewport {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#viewport {
+    min-height: 100%;
+    position: relative;
+    width: 100%;
+}
+.ctr-p {
+    margin: 0 auto;
+    min-width: 980px;
+}
+
 /* Header Styles */
 .header {
     padding-top: 10px;
@@ -34,6 +50,58 @@
     width: 3%;
 }
 
-#tfnewsearch {
+input[type=text] {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
     border-radius: 24px;
 }
+
+input[type=submit] {
+    background-color: #f2f2f2;
+    border: 1pc solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+svg {
+   width: 3%;
+   height: auto;
+   opacity: 60%;
+}
+
+#tfheader {
+    
+    display: flex;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.image {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.center {
+    display: flex;
+    text-align: center;    
+}
+
