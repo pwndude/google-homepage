@@ -16,7 +16,8 @@ div#viewport {
 
 /* Header Styles */
 .header {
-    padding-top: 10px;
+    display: inline-block;
+    padding-top: 15px;
     font-size: 13px;
     font-family: arial, sans-serif;
     opacity: .75;
@@ -93,8 +94,11 @@ svg {
     text-align: center;
 }
 
-.image {
-    display:flex;
+.image { 
+    height: 60px;
+    width: auto;
+    padding-top: 109px;
+    display:block;
     justify-content:center;
     align-items:center;
     
